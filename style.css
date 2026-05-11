@@ -1,0 +1,82 @@
+body {
+  font-family: Georgia, serif;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0 20px;
+  line-height: 1.8;
+  color: #222;
+  background-color: white;
+}
+
+/* ヘッダー */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 80px;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+}
+
+/* メニュー */
+
+nav a {
+  margin-left: 24px;
+  text-decoration: none;
+  color: #444;
+  font-size: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* 見出し */
+
+h1 {
+  font-size: 34px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+/* 本文 */
+
+p {
+  margin-bottom: 20px;
+}
+
+/* 論文 */
+
+.publication {
+  margin-bottom: 28px;
+}
+
+.paper-title {
+  font-style: italic;
+}
+
+/* リンク */
+
+a {
+  color: #2a4a7b;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.justify {
+  text-align: justify;
+}
