@@ -1,11 +1,10 @@
 body {
-  font-family: Georgia, serif;
-  max-width: 900px;
-  margin: 50px auto;
-  padding: 0 20px;
-  line-height: 1.8;
-  color: #222;
-  background-color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+
+  font-family: Georgia, sans-serif;
+  line-height: 1.7;
 }
 
 /* ヘッダー */
@@ -34,6 +33,16 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
+}
+
+nav {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 15px;
+
 }
 
 /* 見出し */
